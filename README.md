@@ -1,6 +1,6 @@
-# 🌏 Sarvam AI Tour Planner
+# 🌏 AI Tour Planner
 
-A beautiful AI-powered tour planning application using [Sarvam AI](https://www.sarvam.ai/)'s chat completions API. Plan your perfect Northern India tour based on your budget and available days!
+A beautiful AI-powered tour planning application using [Sarvam AI](https://www.sarvam.ai/)'s chat completions API. Plan your perfect trip to any destination worldwide based on your budget and available days!
 
 ## ✨ Features
 
@@ -47,15 +47,16 @@ SARVAM_API_KEY=your_api_key_here
 ### 5. Run the Application
 
 ```bash
-python examples/northern_india_tour_planner.py
+python examples/ai_tour_planner.py
 ```
 
 ## 💡 Usage
 
 When you run the application, you'll be prompted to enter:
 
-1. **Your budget** (in INR)
-2. **Number of days** for the tour
+1. **Your destination** (any city, region, or country)
+2. **Your budget** (with currency, e.g., "₹100,000" or "$2,000")
+3. **Number of days** for the tour
 
 The AI will then generate a detailed, day-by-day itinerary including:
 - Destinations to visit
@@ -67,10 +68,12 @@ The AI will then generate a detailed, day-by-day itinerary including:
 ### Example Session
 
 ```
-🌏 Northern India Tour Planner
+🌏 AI Tour Planner
+Plan your perfect trip to any destination!
 
-Enter your budget: 100000
-Enter the number of days you want to spend in the tour: 5
+Enter your destination: Paris, France
+Enter your budget (with currency): €2,000
+Enter the number of days you want to spend: 5
 
 Planning your perfect tour...
 
@@ -88,7 +91,7 @@ Planning your perfect tour...
 ```
 sarvam_ai_explore/
 ├── examples/
-│   └── northern_india_tour_planner.py    # Main tour planner application
+│   └── ai_tour_planner.py    # Main tour planner application
 ├── requirements.txt                       # Project dependencies
 ├── .env                                  # API keys (not tracked in git)
 ├── .gitignore                            # Git ignore rules
