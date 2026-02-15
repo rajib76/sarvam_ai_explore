@@ -47,7 +47,7 @@ SARVAM_API_KEY=your_api_key_here
 ### 5. Run the Application
 
 ```bash
-python examples/first_hello_to_sarvam.py
+python examples/northern_india_tour_planner.py
 ```
 
 ## 💡 Usage
@@ -88,11 +88,11 @@ Planning your perfect tour...
 ```
 sarvam_ai_explore/
 ├── examples/
-│   └── first_hello_to_sarvam.py    # Main tour planner application
-├── requirements.txt                 # Project dependencies
-├── .env                            # API keys (not tracked in git)
-├── .gitignore                      # Git ignore rules
-└── README.md                       # This file
+│   └── northern_india_tour_planner.py    # Main tour planner application
+├── requirements.txt                       # Project dependencies
+├── .env                                  # API keys (not tracked in git)
+├── .gitignore                            # Git ignore rules
+└── README.md                             # This file
 ```
 
 ## 🔑 Environment Variables
